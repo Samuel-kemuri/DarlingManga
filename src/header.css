@@ -1,0 +1,25 @@
+section .container1 {
+    display: flex;
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container1 h1 {
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.buscar input {
+    display: inline;
+    height: 20px;
+    width: 340px;
+    margin-right: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: medium;
+    outline: none;
+}
