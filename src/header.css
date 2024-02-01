@@ -22,4 +22,31 @@ section .container1 {
     border-radius: 20px;
     font-size: medium;
     outline: none;
+    border: none;
+}
+
+section .container2 {
+    display: flex;
+    padding: 16px 0;
+    background-color: #0e1b3d;
+    color: #ecf0f1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navegacao ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao ul li {
+    padding-left: 16px;
+    text-decoration: none;
+    marker-end: none;
+    list-style: none;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
 }
